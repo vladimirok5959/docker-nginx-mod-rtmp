@@ -1,6 +1,6 @@
 # docker-nginx-mod-rtmp
 
-Docker base image with Nginx + libnginx-mod-rtmp + ffmpeg. Streaming proxy. Allow you to stream video to multiple streaming platform and keep recordings in original quality. Time zone can be binded at container startup from host machine by `-v /etc/timezone:/etc/timezone:ro`. Default server port is `80`.
+Docker base image with Nginx + libnginx-mod-rtmp + ffmpeg. Streaming proxy. Allow you to stream video to multiple streaming platform and keep recordings in original quality. Time zone can be binded at container startup from host machine by `-v /etc/timezone:/etc/timezone:ro`. Default server port is `8999`. Video recordings here: `http://127.0.0.1:8999/recordings/`
 
 Docker image: [https://hub.docker.com/r/vladimirok5959/nginx-mod-rtmp](https://hub.docker.com/r/vladimirok5959/nginx-mod-rtmp)
 
