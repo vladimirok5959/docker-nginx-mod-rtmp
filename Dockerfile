@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Vova Tkach <vladimirok5959@gmail.com>
+MAINTAINER Volodymyr Tkach <vladimirok5959@gmail.com>
 
 ARG DEBIAN_FRONTEND=noninteractive
 
